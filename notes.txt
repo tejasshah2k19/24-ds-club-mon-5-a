@@ -132,3 +132,70 @@ Enter data
 
 
 [ 20, 500, 3000, 200, 100]
+
+
+---------------------------------------------------------------------
+
+10  20  30  40  50  
+shift=1 
+20  30  40  50  10  
+
+
+
+
+
+10  20  30  40  50  
+shift=3 
+40  50  10  20  30 
+
+
+
+-------------------------------------------------------------
+
+
+Why DS  ? 
+    - syllabus
+    - data org
+    - time complexity
+    - space complexity 
+
+
+
+space complexity ->
+        run -> memory consume -> 
+        variable : function : 
+
+time complexity ->
+     run -> time ? 
+     time taken by your program
+
+
+
+DS -> alogs -> 
+        TC SC -> 
+
+
+
+QUEUE 
+
+STACK    - linear DS 
+
+LiFo    :   Last In First Out 
+
+
+X Y Z A B C 
+
+
+
+Array 
+
+
+
+
+
+
+
+
+
+
+
