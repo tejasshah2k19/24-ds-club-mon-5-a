@@ -23,12 +23,26 @@ void display(){
     }
 }
 
+int peek(){
+    return stack[top];//int  
+}
+
+void pop()
+{
+    if(top == -1 ){
+        printf("\nStack is Empty");
+    }else{
+        printf("\n%d pop",stack[top]);
+        top--; 
+    }
+}
+
 
 int main(){
     int num,choice; 
 
     while(-1){ //1 true 0 false -1  
-        printf("\n1 For PUSH\n2 For Display\n0 For Exit\nEnter your choice");
+        printf("\n0 For Exit\n1 For PUSH\n2 For Display\n3 For Peek\n4 For Pop\nEnter your choice");
         scanf("%d",&choice);  
 
         switch (choice)
@@ -41,6 +55,12 @@ int main(){
         case 2*1:
             display();
             break;
+        case 3:
+            printf("\n top of the stack = %d",peek());
+            break;
+        case 4:
+            pop();
+            break; 
         case 0 :exit(1); 
         
         default:

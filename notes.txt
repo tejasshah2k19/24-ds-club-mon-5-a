@@ -189,10 +189,30 @@ X Y Z A B C
 
 Array 
 
+----------------------------------------------------------
+
+enter name 
+royal
+
+print -> layor 
 
 
+l
+a
+y
+o
+r
 
+---------------------------------------------------------------
 
+FiFo : First In First Out 
+FcFs : First Come First Serve 
+
+QUEUE :  movie ticket  
+         
+PRINTER : DS 5 , KM 5 , X 5
+
+TYPING : KEYBOARD 
 
 
 
