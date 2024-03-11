@@ -37,6 +37,13 @@ void pop()
     }
 }
 
+void peep(int location){
+    int index = top - location + 1 ; 
+    if(index >= 0 && index <= top ){
+        printf("\n %d ",stack[index]);
+    }
+}
+
 
 int main(){
     int num,choice; 
