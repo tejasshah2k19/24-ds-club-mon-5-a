@@ -245,3 +245,12 @@ Output: 0
 Explanation: Each element in nums is already 0 so no operations are needed.
 
 
+----------------------------
+
+database -> sachin 
+
+search 
+    1) linear search -- beg -- end 
+    2) binary search 
+
+
