@@ -4,11 +4,8 @@
 #define SIZE3 SIZE1+SIZE2
 
 
-int a[]={10,20,30,40,50};
-int b[]={5,15,25,100,600};
-int c[SIZE3]; 
 
-void merge(){
+void merge(int a[],int b[],int c[]){
     int i,j,k; 
 
     for(i=0,j=0,k=0 ; i < SIZE1 && j < SIZE2 ;k++){
@@ -34,3 +31,20 @@ void merge(){
 
 
 
+void display(int c[]){
+    int i;
+    for(i=0;i<SIZE3;i++){
+        printf(" %d",c[i]);
+    }
+}
+
+int main(){
+
+    int a[]={10,20,30,40,50};
+    int b[]={5,15,25,100,600};
+    int c[SIZE3]; 
+
+    merge(a,b,c);
+    display(c);
+    return 0;
+}
