@@ -14,9 +14,17 @@ void divide(int c[],int l,int u){ //0 6
          divide(c,l,mid); 
         //5 6 7 8 9 
         divide(c,mid+1,u);
+
+        merge(c,l,mid,u); 
     }
 }
 
+void merge(int c[],int l,int m,int u){
+    //c -> l m 
+    //c->  m+1 u 
+    //c-> 
+    
+}
 void print(int i){//5 4 3 2 1 0 
     if(i !=0){ 
         print(i-1);//

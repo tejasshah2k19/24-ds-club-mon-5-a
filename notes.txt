@@ -354,17 +354,65 @@ int main(){
 
   1   2    3   4   5                        6   7    8         9    10 
 
+---------------------------------------------------------------------------------
+
+DMA - dynamic memory allocation 
+
+
+int main(){
+
+    int x; //implicit - 4byte 
+
+    // 
+
+    //30minutes 
 
 
 
+    return 0; 
+}//4 byte release 
+-----------------------------------------------------------
+SMA 
+
+    int x; 
+    char k; 
+
+int a; 
 
 
+DMA
+
+-------------------------------------------------------------
+malloc()- memory allocation -- single block 
+calloc()- memory allocation -- n{n can be  1 or 10 or any } number of block with same size    
+
+free() - release allocated memory 
+
+realloc() - resize the allocated memory 
+
+20byte -> malloc 
+200byte -> calloc
+4byte 10block -> calloc 
 
 
+int a;  4byte malloc 
+char name[30]; // calloc 
+ 
+array -> calloc 
+single variable -> malloc 
+structure -> malloc {name[30],int ,float,char grade}
 
+------------------------------------------------------
 
+DMA -> pointer variable 
 
+int a;//value 
+int *p; //address 
+------------------------------------------------------
+take 2 pointer read values from user , perform addition 
 
+take 3 pointer from user and find out max value from it 
+-------------------------------------------------------
 
 
 
