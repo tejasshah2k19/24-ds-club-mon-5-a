@@ -414,6 +414,87 @@ take 2 pointer read values from user , perform addition
 take 3 pointer from user and find out max value from it 
 -------------------------------------------------------
 
+5 number scan -> sum 
+1 2 3 4 5 -> 15 
+2 2 2 2 2 -> 10 
+array ->
+
+int a[5]; 
+
+
+
+int *p;
+p = calloc(sizeof(int),5);
+
+for(i=0;i<5;i++){
+    printf("\nEnter value");
+    scan("%d",&p[i]);
+}
+
+
+sum => 
+
+
+-----------------------------------------------------
+dhiraj sir -> 
+    royal -> 
+            student -> 
+                name 
+                c cpp java 
+                perc 
+
+array -> collection of same type of data 
+structure -> collection of diff type of data 
+
+
+struct keyword 
+
+
+
+student app -> 1 student 
+
+MAX 5 
+
+1 Add Student 
+2 Display 
+Enter choice 
+
+
+1 
+name 
+c
+cpp
+java 
+
+
+1 Add Student 
+2 Display 
+Enter choice 
+
+1 
+name 
+c
+cpp
+java 
+
+1 Add Student 
+2 Display 
+Enter choice 
+2
+
+Name C CPP JAVA PERC 
+X    1   1  1    1
+Y    1   1  1    1
+
+------------------------------------------------------------------
+ 
+
+
+
+
+
+
+
 
 
 
