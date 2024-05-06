@@ -489,7 +489,16 @@ Y    1   1  1    1
 ------------------------------------------------------------------
  
 
+single ll 
+    add at end 
+    add at beg 
+    display 
 
+    search
+    findMax
+    findSum 
+
+    
 
 
 
