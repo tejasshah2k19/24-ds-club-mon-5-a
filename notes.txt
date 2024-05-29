@@ -500,6 +500,18 @@ single ll
 
     
 
+------------------------------------------------------
+
+binary tree -> parent node must have max 2 child [ min : 0  max  : 2 ]
+
+
+binary search Tree -> BST -> 
+            1) i am a binary tree 
+            2) parent : smaller - left , bigger - right 
+
+--------------------------------------------------------
+
+
 
 
 

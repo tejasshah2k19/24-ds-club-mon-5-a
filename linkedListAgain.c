@@ -107,7 +107,13 @@ void delLast(){
 }
 
 void delBeg(){
-    
+
+}
+
+void rotate(){
+
+    addBeg(last->data);
+    delLast();
 }
 
 int main()
@@ -129,7 +135,12 @@ int main()
     display();
     printf("\nReverse Display\n");
     revDisplay();
-
-
+    delLast();
+    
+    printf("\nNormal Display\n");
+    display();
+    printf("\nReverse Display\n");
+    revDisplay();
+   
     return 0;
 }
