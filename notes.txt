@@ -511,6 +511,39 @@ binary search Tree -> BST ->
 
 --------------------------------------------------------
 
+AVL -> height balance tree 
+
+
+BF => -1 0 1 
+
+BF[node] = LH - RH 
+
+Tree BST imbalance -> rotate 
+
+1)Left Rotate 
+2)Right Rotate 
+
+
+
+imbalance -> ? 
+RR : Left Rotate 
+LL : Right Rotate 
+RL : Right-Left Rotate 
+LR : Left-Right Rotate 
+
+
+------------------------------------------------------------
+
+double rotation -> zig zag **
+9,8,7,65,43,24,56,78,98,40,22,11,5
+
+98,76,54,32,12,56,78,90,33,45,67,89,9,87
+
+
+
+
+
+
 
 
 
