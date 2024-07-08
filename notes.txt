@@ -541,11 +541,35 @@ double rotation -> zig zag **
 
 
 
+---------------------------------------------------
+GRAPH 
 
+---------------------------------------------
 
+10 values -> 
+a b c d 
 
+array 
 
+int a[10]; //10 integer values 
 
+2D array -> 
+matrix -> 9 value 
+
+row X col
+
+int a[3][3]; //[]->Row , []->col 
+int a[3][5]; //R:3  C:5  Total:15 
+
+    1   2   3 
+1
+2
+3
+
+    1 2 3 4 5 
+1
+2
+3
 
 
 
